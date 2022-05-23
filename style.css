@@ -6,7 +6,7 @@
 }
 
 body {
-    font-size: 3em;
+    font-size: 2.75em;
 }
 
 section {
@@ -24,21 +24,24 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 7em;
 }
 
 .wrapper div {
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-height: 8em;
-    min-width: 8em;
+    min-height: 5em;
+    min-width: 5em;
     padding: 0.75em;
     border-radius: 10%;
     margin: 1em;
+
 }
 
 .key,
-.keyCode {
+.keyCode,
+.eventCode {
     background-color: #a7bcb9;
 }
 
@@ -51,6 +54,7 @@ h2,
 h3 {
     background-color: #a7bcb9;
     color: whitesmoke;
+    font-size: 1em;
 }
 
 
@@ -62,12 +66,14 @@ h3 {
     }
 
     .wrapper div {
-        padding: 0.5em;
+        padding: 0.15em;
+        height: 1em;
+        width: 1em;
+        font-size: 0.5em;
+        ;
     }
+}
 
-
-    body {
-        font-size: 1.5em;
-    }
-
+h1 {
+    font-size: 1em;
 }
